@@ -1,0 +1,11 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: final-project
+    ports:
+      - "3000:3000" # Internal Express port exposed to host
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
