@@ -1,0 +1,1628 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question_sk": "Množina všetkých riešení rovnice $\\sin x = \\sqrt{3} \\cos x$ je",
+      "question_en": "The set of all solutions to the equation $\\sin x = \\sqrt{3} \\cos x$ is",
+      "options_sk": [
+        "$\\{k\\pi; k \\in \\mathbb{Z}\\} \\cup \\{\\frac{\\pi}{3} + k\\pi; k \\in \\mathbb{Z}\\}$",
+        "$\\{\\frac{\\pi}{3} + k\\pi; k \\in \\mathbb{Z}\\}$",
+        "$\\{k\\pi; k \\in \\mathbb{Z}\\}$",
+        "prázdna množina",
+        "$\\{\\frac{\\pi}{6} + k\\pi; k \\in \\mathbb{Z}\\}$"
+      ],
+      "options_en": [
+        "$\\{k\\pi; k \\in \\mathbb{Z}\\} \\cup \\{\\frac{\\pi}{3} + k\\pi; k \\in \\mathbb{Z}\\}$",
+        "$\\{\\frac{\\pi}{3} + k\\pi; k \\in \\mathbb{Z}\\}$",
+        "$\\{k\\pi; k \\in \\mathbb{Z}\\}$",
+        "empty set",
+        "$\\{\\frac{\\pi}{6} + k\\pi; k \\in \\mathbb{Z}\\}$"
+      ],
+      "areas_sk": ["trigonometria"],
+      "areas_en": ["trigonometry"],
+      "correct_answer": 1,
+      "type": "single"
+    },
+    {
+      "id": 2,
+      "question_sk": "Kvadratická rovnica $2x^2 + 7x - 4 = 0$ má:",
+      "question_en": "The quadratic equation $2x^2 + 7x - 4 = 0$ has:",
+      "options_sk": [
+        "Práve dve riešenia, ktorých súčet je číslo $-7$",
+        "Práve dve záporné riešenia",
+        "Práve dve riešenia, ktorých súčin je číslo $-2$",
+        "Práve dve riešenia, ktorých súčin je číslo $-4$",
+        "Práve dve kladné riešenia"
+      ],
+      "options_en": [
+        "Exactly two solutions whose sum is $-7$",
+        "Exactly two negative solutions",
+        "Exactly two solutions whose product is $-2$",
+        "Exactly two solutions whose product is $-4$",
+        "Exactly two positive solutions"
+      ],
+      "areas_sk": ["algebra", "kvadratické rovnice"],
+      "areas_en": ["algebra", "quadratic equations"],
+      "correct_answer": 2,
+      "type": "single"
+    },
+    {
+      "id": 3,
+      "question_sk": "Zámok s číselníkom má trojciferný kód ABC. Každá cifra je z množiny $\\{0,1,...,9\\}$. Koľko je rôznych kódov, ak kód má najviac dve cifry rovnaké?",
+      "question_en": "A combination lock has a three-digit code ABC. Each digit is from the set $\\{0,1,...,9\\}$. How many different codes are there if the code has at most two identical digits?",
+      "options_sk": [
+        "$10^3$",
+        "990",
+        "$(10)_3$",
+        "Žiadna z ostatných odpovedí nie je správna",
+        "$10\\cdot9\\cdot8$"
+      ],
+      "options_en": [
+        "$10^3$",
+        "990",
+        "$(10)_3$",
+        "None of the other answers is correct",
+        "$10\\cdot9\\cdot8$"
+      ],
+      "areas_sk": ["kombinatorika"],
+      "areas_en": ["combinatorics"],
+      "correct_answer": 1,
+      "type": "single"
+    },
+    {
+      "id": 4,
+      "question_sk": "Rovnica $4^x + 2^x = 6$",
+      "question_en": "The equation $4^x + 2^x = 6$",
+      "options_sk": [
+        "nemá žiadne riešenie",
+        "má práve dve riešenia, ktorých súčet je $-1$",
+        "má práve jedno riešenie",
+        "má práve dve riešenia, ktorých súčin je $6$",
+        "má práve dve riešenia, $x=2$ a $x=-3$"
+      ],
+      "options_en": [
+        "has no solution",
+        "has exactly two solutions whose sum is $-1$",
+        "has exactly one solution",
+        "has exactly two solutions whose product is $6$",
+        "has exactly two solutions, $x=2$ and $x=-3$"
+      ],
+      "areas_sk": ["algebra", "exponenciálne rovnice"],
+      "areas_en": ["algebra", "exponential equations"],
+      "correct_answer": 2,
+      "type": "single"
+    },
+    {
+      "id": 5,
+      "question_sk": "Riešte nerovnicu $\\frac{3x^2+8x+3}{x-1} \\geq 1$. Množina riešení je",
+      "question_en": "Solve the inequality $\\frac{3x^2+8x+3}{x-1} \\geq 1$. The solution set is",
+      "options_sk": [
+        "$(-\\infty,-\\frac{4}{3})\\cup(-1,1)$",
+        "$(-\\frac{4}{3},-1)\\cup(1,\\infty)$",
+        "$(-\\frac{4}{3},-1)$",
+        "Žiadna z ostatných odpovedí nie je správna",
+        "$(-\\infty,-\\frac{4}{3})$"
+      ],
+      "options_en": [
+        "$(-\\infty,-\\frac{4}{3})\\cup(-1,1)$",
+        "$(-\\frac{4}{3},-1)\\cup(1,\\infty)$",
+        "$(-\\frac{4}{3},-1)$",
+        "None of the other answers is correct",
+        "$(-\\infty,-\\frac{4}{3})$"
+      ],
+      "areas_sk": ["algebra", "nerovnice"],
+      "areas_en": ["algebra", "inequalities"],
+      "correct_answer": 1,
+      "type": "single"
+    },
+    {
+      "id": 6,
+      "question_sk": "Výraz $\\frac{1+\\sqrt{a}}{1-\\sqrt{a}} : \\frac{1+a}{1-a}$ sa pre $a\\geq0, a\\neq1$ rovná",
+      "question_en": "The expression $\\frac{1+\\sqrt{a}}{1-\\sqrt{a}} : \\frac{1+a}{1-a}$ for $a\\geq0, a\\neq1$ equals",
+      "options_sk": [
+        "$\\frac{1-\\sqrt{a}}{1+\\sqrt{a}}$",
+        "$1$",
+        "$1 + \\frac{2\\sqrt{a}}{1+a}$",
+        "$1 - \\frac{\\sqrt{a}}{1+a}$",
+        "Žiadna z ostatných odpovedí nie je správna"
+      ],
+      "options_en": [
+        "$\\frac{1-\\sqrt{a}}{1+\\sqrt{a}}$",
+        "$1$",
+        "$1 + \\frac{2\\sqrt{a}}{1+a}$",
+        "$1 - \\frac{\\sqrt{a}}{1+a}$",
+        "None of the other answers is correct"
+      ],
+      "areas_sk": ["algebra", "zjednodušenie výrazov"],
+      "areas_en": ["algebra", "expression simplification"],
+      "correct_answer": 0,
+      "type": "single"
+    },
+    {
+      "id": 7,
+      "question_sk": "Ak $\\log3=a$ a $\\log2=b$, čomu sa rovná $\\log18$?",
+      "question_en": "If $\\log3=a$ and $\\log2=b$, what is $\\log18$ equal to?",
+      "options_sk": [
+        "$a^2b$",
+        "Nedá sa určiť",
+        "$2a + b$",
+        "$2ab$",
+        "$a^2 + b$"
+      ],
+      "options_en": [
+        "$a^2b$",
+        "Cannot be determined",
+        "$2a + b$",
+        "$2ab$",
+        "$a^2 + b$"
+      ],
+      "areas_sk": ["algebra", "logaritmy"],
+      "areas_en": ["algebra", "logarithms"],
+      "correct_answer": 2,
+      "type": "single"
+    },
+    {
+      "id": 8,
+      "question_sk": "Nulové body funkcie $f(x)=2x-4$ sú",
+      "question_en": "The zeros of the function $f(x)=2x-4$ are",
+      "options_sk": [
+        "Má dva nulové body: $-4$ a $2$",
+        "Má jeden nulový bod: $-4$",
+        "Nemá žiaden nulový bod",
+        "Žiadna z ostatných odpovedí nie je pravdivá",
+        "Má jeden nulový bod: $2$"
+      ],
+      "options_en": [
+        "Has two zeros: $-4$ and $2$",
+        "Has one zero: $-4$",
+        "Has no zeros",
+        "None of the other answers is true",
+        "Has one zero: $2$"
+      ],
+      "areas_sk": ["algebra", "lineárne funkcie"],
+      "areas_en": ["algebra", "linear functions"],
+      "correct_answer": 4,
+      "type": "single"
+    },
+    {
+      "id": 9,
+      "question_sk": "Rovnica $\\sqrt{-2x^2+2x-3} = \\sqrt{-3x}$ (v $\\mathbb{R}$)",
+      "question_en": "The equation $\\sqrt{-2x^2+2x-3} = \\sqrt{-3x}$ (in $\\mathbb{R}$)",
+      "options_sk": [
+        "má práve dva iracionálne korene",
+        "nemá žiadne riešenie",
+        "má práve jeden celočíselný koreň",
+        "má práve dva korene, ktorých súčet je $\\frac{5}{2}$",
+        "má práve dva korene, ktorých súčin je $-\\frac{3}{2}$"
+      ],
+      "options_en": [
+        "has exactly two irrational roots",
+        "has no solution",
+        "has exactly one integer root",
+        "has exactly two roots whose sum is $\\frac{5}{2}$",
+        "has exactly two roots whose product is $-\\frac{3}{2}$"
+      ],
+      "areas_sk": ["algebra", "iracionálne rovnice"],
+      "areas_en": ["algebra", "irrational equations"],
+      "correct_answer": 1,
+      "type": "single"
+    },
+    {
+      "id": 10,
+      "question_sk": "4 priamky v rovine môžu rozdeliť rovinu na najviac $n$ častí. Nájdite $n$.",
+      "question_en": "4 lines in a plane can divide the plane into at most $n$ parts. Find $n$.",
+      "options_sk": ["10", "8", "12", "9", "11"],
+      "options_en": ["10", "8", "12", "9", "11"],
+      "areas_sk": ["geometria", "kombinatorika"],
+      "areas_en": ["geometry", "combinatorics"],
+      "correct_answer": 3,
+      "type": "single"
+    },
+    {
+      "id": 11,
+      "question_sk": "Počet priesečníkov grafu $f(x)=x^2-3x+1$ a priamky $y=x-4$ je",
+      "question_en": "The number of intersection points of the graph $f(x)=x^2-3x+1$ and the line $y=x-4$ is",
+      "options_sk": [
+        "práve tri",
+        "žiadny",
+        "práve jeden",
+        "Žiadna z ostatných odpovedí nie je správna",
+        "práve dva"
+      ],
+      "options_en": [
+        "exactly three",
+        "none",
+        "exactly one",
+        "None of the other answers is correct",
+        "exactly two"
+      ],
+      "areas_sk": ["algebra", "funkcie"],
+      "areas_en": ["algebra", "functions"],
+      "correct_answer": 4,
+      "type": "single"
+    },
+    {
+      "id": 12,
+      "question_sk": "Spoločný menovateľ zlomkov $\\frac{x}{x+1}$, $\\frac{x}{x^2-1}$, $\\frac{x+1}{2+x}$ je",
+      "question_en": "The common denominator of the fractions $\\frac{x}{x+1}$, $\\frac{x}{x^2-1}$, $\\frac{x+1}{2+x}$ is",
+      "options_sk": [
+        "$x^2 - 1$",
+        "$x + 1$",
+        "$x(x + 1)$",
+        "$x^3 + 2x^2 - x - 2$",
+        "Žiadna z ostatných odpovedí nie je správna"
+      ],
+      "options_en": [
+        "$x^2 - 1$",
+        "$x + 1$",
+        "$x(x + 1)$",
+        "$x^3 + 2x^2 - x - 2$",
+        "None of the other answers is correct"
+      ],
+      "areas_sk": ["algebra", "zlomky"],
+      "areas_en": ["algebra", "fractions"],
+      "correct_answer": 3,
+      "type": "single"
+    },
+    {
+      "id": 13,
+      "question_sk": "Výrok: 'Ak študent maturoval z informatiky (I), tak nematuroval z matematiky (M) alebo nematuroval z fyziky (F)' je ekvivalentný s",
+      "question_en": "The statement: 'If a student graduated in computer science (I), then they did not graduate in mathematics (M) or did not graduate in physics (F)' is equivalent to",
+      "options_sk": [
+        "Študent maturoval buď zo všetkých troch predmetov F, I, M, alebo zo žiadneho z nich",
+        "Študent maturoval aspoň z jedného z predmetov F, I, M",
+        "Študent maturoval najviac z jedného z predmetov F, I, M",
+        "Študent maturoval aspoň z dvoch z predmetov F, I, M",
+        "Študent maturoval najviac z dvoch z predmetov F, I, M"
+      ],
+      "options_en": [
+        "The student graduated either from all three subjects F, I, M, or from none of them",
+        "The student graduated from at least one of the subjects F, I, M",
+        "The student graduated from at most one of the subjects F, I, M",
+        "The student graduated from at least two of the subjects F, I, M",
+        "The student graduated from at most two of the subjects F, I, M"
+      ],
+      "areas_sk": ["logika"],
+      "areas_en": ["logic"],
+      "correct_answer": 4,
+      "type": "single"
+    },
+    {
+      "id": 14,
+      "question_sk": "Každý prvok množiny M je prirodzené číslo, ktoré buď je deliteľné tromi a nie je deliteľné jedenástimi, alebo nie je deliteľné tromi a je deliteľné jedenástimi. Vyberte množinu M.",
+      "question_en": "Every element of set M is a natural number that is either divisible by three and not divisible by eleven, or not divisible by three and divisible by eleven. Select the set M.",
+      "options_sk": [
+        "$M = \\{11, 22, 33\\}$",
+        "Žiadna z množín v ostatných odpovediach nemá danú vlastnosť",
+        "$M = \\{75, 121, 758961\\}$",
+        "$M = \\{174, 2772, 358479\\}$",
+        "$M = \\{675, 12549, 257866\\}$"
+      ],
+      "options_en": [
+        "$M = \\{11, 22, 33\\}$",
+        "None of the sets in the other answers has the given property",
+        "$M = \\{75, 121, 758961\\}$",
+        "$M = \\{174, 2772, 358479\\}$",
+        "$M = \\{675, 12549, 257866\\}$"
+      ],
+      "areas_sk": ["teória čísel"],
+      "areas_en": ["number theory"],
+      "correct_answer": 2,
+      "type": "single"
+    },
+    {
+      "id": 15,
+      "question_sk": "Súčet prvých štyroch členov aritmetickej postupnosti $\\{a_n\\}$, ak $a_2 + a_3 = 8$, je",
+      "question_en": "The sum of the first four terms of an arithmetic sequence $\\{a_n\\}$, if $a_2 + a_3 = 8$, is",
+      "options_sk": ["Nedá sa vypočítať", "8", "16", "12", "20"],
+      "options_en": ["Cannot be calculated", "8", "16", "12", "20"],
+      "areas_sk": ["algebra", "postupnosti"],
+      "areas_en": ["algebra", "sequences"],
+      "correct_answer": 2,
+      "type": "single"
+    },
+    {
+      "id": 16,
+      "question_sk": "V kocke so stranou $a$ je vpísaná guľa. A) Vyjadrite, koľko percent objemu kocky tvorí guľa. B) O koľko percent sa zmení pomer, ak stranu kocky zväčšíme dvojnásobne a guľu tiež.",
+      "question_en": "A sphere is inscribed in a cube with side $a$. A) Express what percentage of the cube's volume is the sphere. B) By what percentage will the ratio change if we double the side of the cube and also the sphere.",
+      "areas_sk": ["geometria", "percentá"],
+      "areas_en": ["geometry", "percentages"],
+      "correct_answer": "52.36, 0",
+      "type": "open"
+    },
+    {
+      "id": 17,
+      "question_sk": "Zjednodušte výraz a určte podmienky riešenia",
+      "question_en": "Simplify the expression and determine the solution conditions",
+      "areas_sk": ["algebra", "zjednodušenie výrazov"],
+      "areas_en": ["algebra", "expression simplification"],
+      "correct_answer": "$\\frac{a+1}{a-1}$",
+      "type": "open"
+    },
+    {
+      "id": 18,
+      "question_sk": "V množine prirodzených čísel riešte nerovnicu: $\\frac{2x-1}{5} - \\frac{3-2x}{4} < \\frac{3-x-1}{2}$",
+      "question_en": "In the set of natural numbers, solve the inequality: $\\frac{2x-1}{5} - \\frac{3-2x}{4} < \\frac{3-x-1}{2}$",
+      "areas_sk": ["algebra", "nerovnice"],
+      "areas_en": ["algebra", "inequalities"],
+      "correct_answer": "$\\{1, 2\\}$",
+      "type": "open"
+    },
+    {
+      "id": 19,
+      "question_sk": "Vypočítajte povrch kocky s telesovou uhlopriečkou $u_s=12$ cm",
+      "question_en": "Calculate the surface area of a cube with space diagonal $u_s=12$ cm",
+      "areas_sk": ["geometria"],
+      "areas_en": ["geometry"],
+      "correct_answer": "288",
+      "type": "open"
+    },
+    {
+      "id": 20,
+      "question_sk": "Riešte rovnicu $3x^2+5x-2=0$",
+      "question_en": "Solve the equation $3x^2+5x-2=0$",
+      "areas_sk": ["algebra", "kvadratické rovnice"],
+      "areas_en": ["algebra", "quadratic equations"],
+      "correct_answer": "$-2, \\frac{1}{3}$",
+      "type": "open"
+    },
+    {
+      "id": 23,
+      "question_sk": "Určte vzdialenosť priesečníkov grafu $f(x)=x^2+2x-3$ s osou $x$",
+      "question_en": "Determine the distance between the intersection points of the graph $f(x)=x^2+2x-3$ with the x-axis",
+      "areas_sk": ["algebra", "funkcie"],
+      "areas_en": ["algebra", "functions"],
+      "correct_answer": "4",
+      "type": "open"
+    },
+    {
+      "id": 24,
+      "question_sk": "Určte pravdivosť výrokov: V1: Existuje prvočíslo deliteľné 8. V2: Všetky prvočísla sú nepárne. V3: Existuje celé číslo, ktoré nie je racionálne. V4: Existuje iracionálne číslo ako podiel prirodzených čísel. V5: Každé nepárne číslo je tvaru $2x+1$, $x\\in\\mathbb{Z}$.",
+      "question_en": "Determine the truth of the statements: V1: There exists a prime number divisible by 8. V2: All prime numbers are odd. V3: There exists an integer that is not rational. V4: There exists an irrational number as a quotient of natural numbers. V5: Every odd number is of the form $2x+1$, $x\\in\\mathbb{Z}$.",
+      "areas_sk": ["teória čísel", "logika"],
+      "areas_en": ["number theory", "logic"],
+      "correct_answer": "False, False, False, True, True",
+      "type": "open"
+    },
+    {
+      "id": 25,
+      "question_sk": "Nájdite vzdialenosť zdroja signálu od 2. detektora pomocou kosínusovej vety ($a=\\sqrt{7}$ km, $c=1$ km, $\\alpha=60^\\circ$)",
+      "question_en": "Find the distance of the signal source from the 2nd detector using the cosine theorem ($a=\\sqrt{7}$ km, $c=1$ km, $\\alpha=60^\\circ$)",
+      "areas_sk": ["geometria", "trigonometria"],
+      "areas_en": ["geometry", "trigonometry"],
+      "correct_answer": "2",
+      "type": "open"
+    },
+    {
+      "id": 26,
+      "question_sk": "Vypočítajte priemerný odpor tranzistorov (pôvodne 15 vzoriek s priemerom 172 mΩ, pridané vzorky: 148, 152, 150, 151, 159 mΩ)",
+      "question_en": "Calculate the average resistance of transistors (originally 15 samples with average 172 mΩ, added samples: 148, 152, 150, 151, 159 mΩ)",
+      "areas_sk": ["štatistika"],
+      "areas_en": ["statistics"],
+      "correct_answer": "168.5",
+      "type": "open"
+    },
+    {
+      "id": 27,
+      "question_sk": "Vypočítajte medznú frekvenciu filtra $f_t=\\frac{1}{2\\pi RC}$ pre $R=10^4 \\Omega$, $C=10^{-7}$ F, $\\frac{1}{2\\pi}=0.16$",
+      "question_en": "Calculate the cutoff frequency of the filter $f_t=\\frac{1}{2\\pi RC}$ for $R=10^4 \\Omega$, $C=10^{-7}$ F, $\\frac{1}{2\\pi}=0.16$",
+      "areas_sk": ["fyzika", "algebra"],
+      "areas_en": ["physics", "algebra"],
+      "correct_answer": "160",
+      "type": "open"
+    },
+    {
+      "id": 28,
+      "question_sk": "Vypočítajte výstupné napätie zosilňovača pre $U_m=1$ mV a zosilnenie $60=20\\log\\left(\\frac{U_{out}}{U_m}\\right)$",
+      "question_en": "Calculate the output voltage of an amplifier for $U_m=1$ mV and gain $60=20\\log\\left(\\frac{U_{out}}{U_m}\\right)$",
+      "areas_sk": ["fyzika", "logaritmy"],
+      "areas_en": ["physics", "logarithms"],
+      "correct_answer": "1",
+      "type": "open"
+    },
+    {
+      "id": 30,
+      "question_sk": "Koľkými spôsobmi si môže 5 spolužiakov (Adam, Betka, Cyril, Dávid, Evka) sadnúť do kina, ak Betka nechce sedieť vedľa Cyrila a Evka chce sedieť na kraji?",
+      "question_en": "In how many ways can 5 classmates (Adam, Betka, Cyril, Dávid, Evka) sit in a cinema if Betka doesn't want to sit next to Cyril and Evka wants to sit at the end?",
+      "areas_sk": ["kombinatorika"],
+      "areas_en": ["combinatorics"],
+      "correct_answer": "24",
+      "type": "open"
+    },
+    {
+      "id": 31,
+      "question_sk": "Číslo 260 je súčinom piatoch po sebe idúcich čísel. Nájdite tieto čísla.",
+      "question_en": "The number 260 is the sum of five consecutive numbers. Find these numbers.",
+      "areas_sk": ["algebra"],
+      "areas_en": ["algebra"],
+      "correct_answer": "50, 51, 52, 53, 54",
+      "type": "open"
+    },
+    {
+      "id": 33,
+      "question_sk": "Ktorá parametrická rovnica opisuje priamku prechádzajúcu bodmi $A[-1;2]$ a $B[2;3]$?",
+      "question_en": "Which parametric equation describes the line passing through points $A[-1;2]$ and $B[2;3]$?",
+      "options_sk": [
+        "$x=2+3t; y=-1+t$",
+        "$x=3+3t; y=1+t$",
+        "$x=-1+t; y=2+3t$",
+        "$x=2-3t; y=3-t$",
+        "$x=3-t; y=1+2t$"
+      ],
+      "options_en": [
+        "$x=2+3t; y=-1+t$",
+        "$x=3+3t; y=1+t$",
+        "$x=-1+t; y=2+3t$",
+        "$x=2-3t; y=3-t$",
+        "$x=3-t; y=1+2t$"
+      ],
+      "areas_sk": ["geometria", "lineárna algebra"],
+      "areas_en": ["geometry", "linear algebra"],
+      "correct_answer": 3,
+      "type": "single"
+    },
+    {
+      "id": 34,
+      "question_sk": "Kvadratická rovnica $2x^2 + 7x - 4 = 0$ má:",
+      "question_en": "The quadratic equation $2x^2 + 7x - 4 = 0$ has:",
+      "options_sk": [
+        "Práve dve riešenia, ktorých súčet je $-7$",
+        "Práve dve záporné riešenia",
+        "Práve dve riešenia, ktorých súčin je $-2$",
+        "Práve dve riešenia, ktorých súčin je $-4$",
+        "Práve dve kladné riešenia"
+      ],
+      "options_en": [
+        "Exactly two solutions whose sum is $-7$",
+        "Exactly two negative solutions",
+        "Exactly two solutions whose product is $-2$",
+        "Exactly two solutions whose product is $-4$",
+        "Exactly two positive solutions"
+      ],
+      "areas_sk": ["algebra", "kvadratické rovnice"],
+      "areas_en": ["algebra", "quadratic equations"],
+      "correct_answer": 2,
+      "type": "single"
+    },
+    {
+      "id": 35,
+      "question_sk": "Koľko je trojciferných kódov z cifier $\\{1,2,...,9\\}$ s najviac dvomi rovnakými ciframi?",
+      "question_en": "How many three-digit codes are there from digits $\\{1,2,...,9\\}$ with at most two identical digits?",
+      "options_sk": [
+        "$10^3$",
+        "990",
+        "$(10)_3$",
+        "Žiadna z ostatných odpovedí nie je správna",
+        "$10\\cdot9\\cdot8$"
+      ],
+      "options_en": [
+        "$10^3$",
+        "990",
+        "$(10)_3$",
+        "None of the other answers is correct",
+        "$10\\cdot9\\cdot8$"
+      ],
+      "areas_sk": ["kombinatorika"],
+      "areas_en": ["combinatorics"],
+      "correct_answer": 1,
+      "type": "single"
+    },
+    {
+      "id": 36,
+      "question_sk": "Súčet 17 rôznych prirodzených čísel je 154. Určte súčet dvoch najväčších z nich.",
+      "question_en": "The sum of 17 different natural numbers is 154. Determine the sum of the two largest of them.",
+      "areas_sk": ["teória čísel"],
+      "areas_en": ["number theory"],
+      "correct_answer": "29",
+      "type": "open"
+    },
+    {
+      "id": 37,
+      "question_sk": "Peter trénuje na polmaratón (1. deň 1000m, každý ďalší +250m). V určitý deň zabehol 21km. Koľko km spolu zabehol?",
+      "question_en": "Peter is training for a half-marathon (1st day 1000m, each next day +250m). On a certain day he ran 21km. How many km did he run in total?",
+      "areas_sk": ["algebra", "postupnosti"],
+      "areas_en": ["algebra", "sequences"],
+      "correct_answer": "66",
+      "type": "open"
+    },
+    {
+      "id": 38,
+      "question_sk": "Ktorý výraz zodpovedá tvrdeniu: 'Vzdialenosť čísla $x$ od $-4$ na číselnej osi je 5'?",
+      "question_en": "Which expression corresponds to the statement: 'The distance of number $x$ from $-4$ on the number line is 5'?",
+      "options_sk": [
+        "$x - 4 = 5$",
+        "$x + 4 = 5$",
+        "$|x - 4| = 5$",
+        "$|x + 4| = 5$",
+        "$x + 4 = |5|$"
+      ],
+      "options_en": [
+        "$x - 4 = 5$",
+        "$x + 4 = 5$",
+        "$|x - 4| = 5$",
+        "$|x + 4| = 5$",
+        "$x + 4 = |5|$"
+      ],
+      "areas_sk": ["algebra"],
+      "areas_en": ["algebra"],
+      "correct_answer": 3,
+      "type": "single"
+    },
+    {
+      "id": 39,
+      "question_sk": "Zvuk prekoná 1km za 3s. Hrmenie bolo počuť 11s po blesku. V akej vzdialenosti je búrka?",
+      "question_en": "Sound travels 1km in 3s. Thunder was heard 11s after lightning. How far is the storm?",
+      "areas_sk": ["fyzika"],
+      "areas_en": ["physics"],
+      "correct_answer": "3.67",
+      "type": "open"
+    },
+    {
+      "id": 40,
+      "question_sk": "3D tlačiareň (2200€) zdražela o 50%, potom zlacnela o 10%, a nakoniec mala 10% kartovú zľavu. Aká je konečná cena?",
+      "question_en": "A 3D printer (2200€) became 50% more expensive, then 10% cheaper, and finally had a 10% card discount. What is the final price?",
+      "areas_sk": ["percentá"],
+      "areas_en": ["percentages"],
+      "correct_answer": "2673",
+      "type": "open"
+    },
+    {
+      "id": 43,
+      "question_sk": "Vypočítajte minimálny výkon klimatizácie pre väčšiu izbu (rozmery 540×300×280 cm, výkon 31W/m³)",
+      "question_en": "Calculate the minimum power of air conditioning for a larger room (dimensions 540×300×280 cm, power 31W/m³)",
+      "areas_sk": ["geometria", "prevody jednotiek"],
+      "areas_en": ["geometry", "unit conversion"],
+      "correct_answer": "1400",
+      "type": "open"
+    },
+    {
+      "id": 44,
+      "question_sk": "Do akej výšky siaha hladina vody v akváriu (50×20 cm podstava) s 100 litrami vody?",
+      "question_en": "To what height does the water level reach in an aquarium (50×20 cm base) with 100 liters of water?",
+      "areas_sk": ["geometria", "prevody jednotiek"],
+      "areas_en": ["geometry", "unit conversion"],
+      "correct_answer": "100",
+      "type": "open"
+    },
+    {
+      "id": 46,
+      "question_sk": "Riešte rovnicu $\\log_{x-1}8 = 3$",
+      "question_en": "Solve the equation $\\log_{x-1}8 = 3$",
+      "options_sk": ["$x=3$", "$x=1$", "$x=4$", "$x=2$", "$x=5$"],
+      "options_en": ["$x=3$", "$x=1$", "$x=4$", "$x=2$", "$x=5$"],
+      "areas_sk": ["algebra", "logaritmy"],
+      "areas_en": ["algebra", "logarithms"],
+      "correct_answer": 0,
+      "type": "single"
+    },
+    {
+      "id": 47,
+      "question_sk": "Riešte rovnicu $5^{2x-1} = 25$",
+      "question_en": "Solve the equation $5^{2x-1} = 25$",
+      "options_sk": ["$x=-1$", "$x=-\\frac{1}{2}$", "$x=1$", "$x=2$", "$x=0$"],
+      "options_en": ["$x=-1$", "$x=-\\frac{1}{2}$", "$x=1$", "$x=2$", "$x=0$"],
+      "areas_sk": ["algebra", "exponenciálne rovnice"],
+      "areas_en": ["algebra", "exponential equations"],
+      "correct_answer": 2,
+      "type": "single"
+    },
+    {
+      "id": 48,
+      "question_sk": "Spoločný menovateľ zlomkov $\\frac{x}{x-2}$, $\\frac{x}{x+2}$, $\\frac{x}{4-x^2}$ je",
+      "question_en": "The common denominator of the fractions $\\frac{x}{x-2}$, $\\frac{x}{x+2}$, $\\frac{x}{4-x^2}$ is",
+      "options_sk": [
+        "$x+2$",
+        "$x$",
+        "$x^2-4$",
+        "$x-2$",
+        "Žiadna z ostatných odpovedí nie je správna"
+      ],
+      "options_en": [
+        "$x+2$",
+        "$x$",
+        "$x^2-4$",
+        "$x-2$",
+        "None of the other answers is correct"
+      ],
+      "areas_sk": ["algebra", "zlomky"],
+      "areas_en": ["algebra", "fractions"],
+      "correct_answer": 2,
+      "type": "single"
+    },
+    {
+      "id": 49,
+      "question_sk": "Rozklad kvadratického trojčlenu $3x^2 + 9x -12$ je",
+      "question_en": "The factorization of the quadratic trinomial $3x^2 + 9x -12$ is",
+      "options_sk": [
+        "$3(x+1)(x-4)$",
+        "$(x-3)(x+4)$",
+        "$3(x+1)(x+4)$",
+        "$3(x-1)(x+4)$",
+        "$3(x-2)(x+2)$"
+      ],
+      "options_en": [
+        "$3(x+1)(x-4)$",
+        "$(x-3)(x+4)$",
+        "$3(x+1)(x+4)$",
+        "$3(x-1)(x+4)$",
+        "$3(x-2)(x+2)$"
+      ],
+      "areas_sk": ["algebra", "polynómy"],
+      "areas_en": ["algebra", "polynomials"],
+      "correct_answer": 0,
+      "type": "single"
+    },
+    {
+      "id": 50,
+      "question_sk": "Riešenie nerovnice $\\frac{1-x}{x+5} \\geq 2$ je",
+      "question_en": "The solution to the inequality $\\frac{1-x}{x+5} \\geq 2$ is",
+      "options_sk": [
+        "$(-5,-3\\rangle$",
+        "Žiadna z ostatných odpovedí nie je správna",
+        "$\\langle-5,-3\\rangle$",
+        "$(-\\infty,-5)\\cup\\langle-3,\\infty)$",
+        "$\\langle-5,-3)$"
+      ],
+      "options_en": [
+        "$(-5,-3\\rangle$",
+        "None of the other answers is correct",
+        "$\\langle-5,-3\\rangle$",
+        "$(-\\infty,-5)\\cup\\langle-3,\\infty)$",
+        "$\\langle-5,-3)$"
+      ],
+      "areas_sk": ["algebra", "nerovnice"],
+      "areas_en": ["algebra", "inequalities"],
+      "correct_answer": 0,
+      "type": "single"
+    },
+    {
+      "id": 51,
+      "question_sk": "Definičný obor funkcie $f(x) = \\log(3-x)$ je",
+      "question_en": "The domain of the function $f(x) = \\log(3-x)$ is",
+      "options_sk": [
+        "$(-3,3)$",
+        "$(-\\infty,-3)$",
+        "$(-3,\\infty)$",
+        "$(-\\infty,3)$",
+        "$(3,\\infty)$"
+      ],
+      "options_en": [
+        "$(-3,3)$",
+        "$(-\\infty,-3)$",
+        "$(-3,\\infty)$",
+        "$(-\\infty,3)$",
+        "$(3,\\infty)$"
+      ],
+      "areas_sk": ["algebra", "funkcie"],
+      "areas_en": ["algebra", "functions"],
+      "correct_answer": 3,
+      "type": "single"
+    },
+    {
+      "id": 52,
+      "question_sk": "Z výroku 'Bod A nie je priesečníkom priamok p a q' vyplýva",
+      "question_en": "From the statement 'Point A is not the intersection of lines p and q' it follows that",
+      "options_sk": [
+        "Bod A neleží na p alebo q",
+        "Bod A neleží na p ani q",
+        "Priamky p a q sú rovnobežné",
+        "Buď p alebo q nie je priamka",
+        "Priamky p a q majú iný priesečník"
+      ],
+      "options_en": [
+        "Point A does not lie on p or q",
+        "Point A lies neither on p nor q",
+        "Lines p and q are parallel",
+        "Either p or q is not a line",
+        "Lines p and q have a different intersection"
+      ],
+      "areas_sk": ["geometria", "logika"],
+      "areas_en": ["geometry", "logic"],
+      "correct_answer": 0,
+      "type": "single"
+    },
+    {
+      "id": 53,
+      "question_sk": "Riešenie rovnice $2^{2x+1} = 4^{2x-3}$ patrí do intervalu",
+      "question_en": "The solution to the equation $2^{2x+1} = 4^{2x-3}$ belongs to the interval",
+      "options_sk": [
+        "$(-\\infty,0)\\cup(4,\\infty)$",
+        "$(2,3)$",
+        "$(1,2)$",
+        "$(3,4)$",
+        "$(0,1)$"
+      ],
+      "options_en": [
+        "$(-\\infty,0)\\cup(4,\\infty)$",
+        "$(2,3)$",
+        "$(1,2)$",
+        "$(3,4)$",
+        "$(0,1)$"
+      ],
+      "areas_sk": ["algebra", "exponenciálne rovnice"],
+      "areas_en": ["algebra", "exponential equations"],
+      "correct_answer": 3,
+      "type": "single"
+    },
+    {
+      "id": 54,
+      "question_sk": "Zjednodušte výraz $(\\frac{1}{a} + 1) : (a + 2 + \\frac{1-2(a+1)^2}{a})$ pre $a\\neq0, a\\neq-1$",
+      "question_en": "Simplify the expression $(\\frac{1}{a} + 1) : (a + 2 + \\frac{1-2(a+1)^2}{a})$ for $a\\neq0, a\\neq-1$",
+      "options_sk": [
+        "Žiadna z ostatných odpovedí nie je správna",
+        "$\\frac{2a}{1-a}$",
+        "$\\frac{1}{1-a}$",
+        "$-\\frac{1}{1+a}$",
+        "$\\frac{1}{a}$"
+      ],
+      "options_en": [
+        "None of the other answers is correct",
+        "$\\frac{2a}{1-a}$",
+        "$\\frac{1}{1-a}$",
+        "$-\\frac{1}{1+a}$",
+        "$\\frac{1}{a}$"
+      ],
+      "areas_sk": ["algebra", "zjednodušenie výrazov"],
+      "areas_en": ["algebra", "expression simplification"],
+      "correct_answer": 2,
+      "type": "single"
+    },
+    {
+      "id": 55,
+      "question_sk": "Lineárna funkcia $f(x)=3x+1$",
+      "question_en": "The linear function $f(x)=3x+1$",
+      "options_sk": [
+        "má nulový bod $1$",
+        "má nulový bod $\\frac{1}{3}$",
+        "má nulové body $1$ a $3$",
+        "Žiadna z ostatných odpovedí nie je pravdivá",
+        "nemá nulové body"
+      ],
+      "options_en": [
+        "has a zero at $1$",
+        "has a zero at $\\frac{1}{3}$",
+        "has zeros at $1$ and $3$",
+        "None of the other answers is true",
+        "has no zeros"
+      ],
+      "areas_sk": ["algebra", "lineárne funkcie"],
+      "areas_en": ["algebra", "linear functions"],
+      "correct_answer": 1,
+      "type": "single"
+    },
+    {
+      "id": 56,
+      "question_sk": "Riešenie rovnice $|x-2|=5$ je",
+      "question_en": "The solution to the equation $|x-2|=5$ is",
+      "options_sk": [
+        "$\\{1,5\\}$",
+        "$\\{7\\}$",
+        "$\\{2,5\\}$",
+        "$\\{-3,2,7\\}$",
+        "$\\{-3,7\\}$"
+      ],
+      "options_en": [
+        "$\\{1,5\\}$",
+        "$\\{7\\}$",
+        "$\\{2,5\\}$",
+        "$\\{-3,2,7\\}$",
+        "$\\{-3,7\\}$"
+      ],
+      "areas_sk": ["algebra", "absolútna hodnota"],
+      "areas_en": ["algebra", "absolute value"],
+      "correct_answer": 4,
+      "type": "single"
+    },
+    {
+      "id": 57,
+      "question_sk": "Graf funkcie $f(x)=3x^2-5x+2$",
+      "question_en": "The graph of the function $f(x)=3x^2-5x+2$",
+      "options_sk": [
+        "leží celý nad osou $x$",
+        "leží celý pod osou $x$",
+        "Žiadna z ostatných odpovedí nie je správna",
+        "pretína os $x$ v dvoch bodoch",
+        "dotýka sa osi $x$ v jednom bode"
+      ],
+      "options_en": [
+        "lies entirely above the x-axis",
+        "lies entirely below the x-axis",
+        "None of the other answers is correct",
+        "intersects the x-axis at two points",
+        "touches the x-axis at one point"
+      ],
+      "areas_sk": ["algebra", "funkcie"],
+      "areas_en": ["algebra", "functions"],
+      "correct_answer": 3,
+      "type": "single"
+    },
+    {
+      "id": 58,
+      "question_sk": "Koľkými spôsobmi sa dá rozdeliť pravidelný šesťuholník na 4 neprekrývajúce sa trojuholníky?",
+      "question_en": "In how many ways can a regular hexagon be divided into 4 non-overlapping triangles?",
+      "options_sk": [
+        "6",
+        "12",
+        "14",
+        "18",
+        "Žiadna z ostatných odpovedí nie je správna"
+      ],
+      "options_en": [
+        "6",
+        "12",
+        "14",
+        "18",
+        "None of the other answers is correct"
+      ],
+      "areas_sk": ["geometria", "kombinatorika"],
+      "areas_en": ["geometry", "combinatorics"],
+      "correct_answer": 2,
+      "type": "single"
+    },
+    {
+      "id": 59,
+      "question_sk": "Množina riešení rovnice $2 \\sin x = \\tan x$ je",
+      "question_en": "The solution set of the equation $2 \\sin x = \\tan x$ is",
+      "options_sk": [
+        "$\\{\\frac{\\pi}{3} + 2k\\pi\\}$",
+        "$\\{k\\pi\\} \\cup \\{\\frac{\\pi}{3} + k\\pi\\}$",
+        "Nemá riešenie",
+        "$\\{k\\pi\\} \\cup \\{\\frac{\\pi}{3} + 2k\\pi\\} \\cup \\{-\\frac{\\pi}{3} + 2k\\pi\\}$",
+        "$\\{k\\pi\\}$"
+      ],
+      "options_en": [
+        "$\\{\\frac{\\pi}{3} + 2k\\pi\\}$",
+        "$\\{k\\pi\\} \\cup \\{\\frac{\\pi}{3} + k\\pi\\}$",
+        "Has no solution",
+        "$\\{k\\pi\\} \\cup \\{\\frac{\\pi}{3} + 2k\\pi\\} \\cup \\{-\\frac{\\pi}{3} + 2k\\pi\\}$",
+        "$\\{k\\pi\\}$"
+      ],
+      "areas_sk": ["trigonometria"],
+      "areas_en": ["trigonometry"],
+      "correct_answer": 1,
+      "type": "single"
+    },
+    {
+      "id": 60,
+      "question_sk": "Prienik dvoch trojuholníkov je úsečka. Ich zjednotenie je",
+      "question_en": "The intersection of two triangles is a segment. Their union is",
+      "options_sk": [
+        "trojuholník alebo štvoruholník",
+        "trojuholník, štvoruholník, päťuholník alebo šesťuholník",
+        "trojuholník, štvoruholník alebo päťuholník",
+        "trojuholník",
+        "štvoruholník"
+      ],
+      "options_en": [
+        "triangle or quadrilateral",
+        "triangle, quadrilateral, pentagon or hexagon",
+        "triangle, quadrilateral or pentagon",
+        "triangle",
+        "quadrilateral"
+      ],
+      "areas_sk": ["geometria"],
+      "areas_en": ["geometry"],
+      "correct_answer": 1,
+      "type": "single"
+    },
+    {
+      "id": 61,
+      "question_sk": "Nulové body funkcie $f(x)=2x+4$ sú",
+      "question_en": "The zeros of the function $f(x)=2x+4$ are",
+      "options_sk": [
+        "Má jeden nulový bod: $4$",
+        "Žiadna z ostatných odpovedí nie je pravdivá",
+        "Má dva nulové body: $2$ a $4$",
+        "Má jeden nulový bod: $2$",
+        "Nemá žiaden nulový bod"
+      ],
+      "options_en": [
+        "Has one zero: $4$",
+        "None of the other answers is true",
+        "Has two zeros: $2$ and $4$",
+        "Has one zero: $2$",
+        "Has no zeros"
+      ],
+      "areas_sk": ["algebra", "lineárne funkcie"],
+      "areas_en": ["algebra", "linear functions"],
+      "correct_answer": 3,
+      "type": "single"
+    },
+    {
+      "id": 62,
+      "question_sk": "Polomery sústredných kružníc s plochou medzikružia $3\\pi$ sú",
+      "question_en": "The radii of concentric circles with an annulus area of $3\\pi$ are",
+      "options_sk": [
+        "$r_1=\\frac{3}{2}, r_2=3$",
+        "$r_1=1, r_2=4$",
+        "$r_1=\\sqrt{5}, r_2=2\\sqrt{2}$",
+        "$r_1=3, r_2=12$",
+        "$r_1=\\sqrt{12}, r_2=\\sqrt{6}$"
+      ],
+      "options_en": [
+        "$r_1=\\frac{3}{2}, r_2=3$",
+        "$r_1=1, r_2=4$",
+        "$r_1=\\sqrt{5}, r_2=2\\sqrt{2}$",
+        "$r_1=3, r_2=12$",
+        "$r_1=\\sqrt{12}, r_2=\\sqrt{6}$"
+      ],
+      "areas_sk": ["geometria"],
+      "areas_en": ["geometry"],
+      "correct_answer": 1,
+      "type": "single"
+    },
+    {
+      "id": 63,
+      "question_sk": "Rovnica $2^x + (\\frac{1}{2})^x = 2$",
+      "question_en": "The equation $2^x + (\\frac{1}{2})^x = 2$",
+      "options_sk": [
+        "má riešenia so súčinom $1$",
+        "má riešenia so súčtom $2$",
+        "má práve jedno riešenie",
+        "nemá riešenie",
+        "má riešenia so súčtom $0$"
+      ],
+      "options_en": [
+        "has solutions with product $1$",
+        "has solutions with sum $2$",
+        "has exactly one solution",
+        "has no solution",
+        "has solutions with sum $0$"
+      ],
+      "areas_sk": ["algebra", "exponenciálne rovnice"],
+      "areas_en": ["algebra", "exponential equations"],
+      "correct_answer": 2,
+      "type": "single"
+    },
+    {
+      "id": 64,
+      "question_sk": "Súčet prvých 5 členov AP s $a_2+a_3+a_4=9$ je",
+      "question_en": "The sum of the first 5 terms of an AP with $a_2+a_3+a_4=9$ is",
+      "options_sk": ["18", "6", "Nedá sa určiť", "15", "9"],
+      "options_en": ["18", "6", "Cannot be determined", "15", "9"],
+      "areas_sk": ["algebra", "postupnosti"],
+      "areas_en": ["algebra", "sequences"],
+      "correct_answer": 3,
+      "type": "single"
+    },
+    {
+      "id": 65,
+      "question_sk": "Kvadratická rovnica $3x^2+2x-3=0$ má",
+      "question_en": "The quadratic equation $3x^2+2x-3=0$ has",
+      "options_sk": [
+        "práve jedno riešenie",
+        "riešenia so súčinom $-3$",
+        "dve záporné riešenia",
+        "riešenia so súčinom $-1$",
+        "dve kladné riešenia"
+      ],
+      "options_en": [
+        "exactly one solution",
+        "solutions with product $-3$",
+        "two negative solutions",
+        "solutions with product $-1$",
+        "two positive solutions"
+      ],
+      "areas_sk": ["algebra", "kvadratické rovnice"],
+      "areas_en": ["algebra", "quadratic equations"],
+      "correct_answer": 1,
+      "type": "single"
+    },
+    {
+      "id": 66,
+      "question_sk": "Zjednodušenie výrazu $\\frac{a^2-2ab+b^2}{a^2-a^2-ab^2+b^2}$ pre $a\\neq b, a\\neq -b$",
+      "question_en": "Simplification of the expression $\\frac{a^2-2ab+b^2}{a^2-a^2-ab^2+b^2}$ for $a\\neq b, a\\neq -b$",
+      "options_sk": [
+        "$\\frac{1}{a-b}$",
+        "Žiadna z ostatných odpovedí nie je správna",
+        "$a+b$",
+        "$\\frac{1}{a+b}$",
+        "$a-b$"
+      ],
+      "options_en": [
+        "$\\frac{1}{a-b}$",
+        "None of the other answers is correct",
+        "$a+b$",
+        "$\\frac{1}{a+b}$",
+        "$a-b$"
+      ],
+      "areas_sk": ["algebra", "zjednodušenie výrazov"],
+      "areas_en": ["algebra", "expression simplification"],
+      "correct_answer": 3,
+      "type": "single"
+    },
+    {
+      "id": 67,
+      "question_sk": "Rovnica $\\sqrt{1+x-2x^2} = \\sqrt{x}$ (v $\\mathbb{R}$)",
+      "question_en": "The equation $\\sqrt{1+x-2x^2} = \\sqrt{x}$ (in $\\mathbb{R}$)",
+      "options_sk": [
+        "nemá riešenie",
+        "má iracionálne korene",
+        "má korene so súčinom $-\\frac{1}{2}$",
+        "má celočíselný koreň",
+        "má práve jeden koreň"
+      ],
+      "options_en": [
+        "has no solution",
+        "has irrational roots",
+        "has roots with product $-\\frac{1}{2}$",
+        "has an integer root",
+        "has exactly one root"
+      ],
+      "areas_sk": ["algebra", "iracionálne rovnice"],
+      "areas_en": ["algebra", "irrational equations"],
+      "correct_answer": 4,
+      "type": "single"
+    },
+    {
+      "id": 68,
+      "question_sk": "Obvod kosoštvorca s uhlopriečkami 6cm a 8cm je",
+      "question_en": "The perimeter of a rhombus with diagonals 6cm and 8cm is",
+      "options_sk": ["16cm", "Nedá sa určiť", "14cm", "28cm", "20cm"],
+      "options_en": ["16cm", "Cannot be determined", "14cm", "28cm", "20cm"],
+      "areas_sk": ["geometria"],
+      "areas_en": ["geometry"],
+      "correct_answer": 4,
+      "type": "single"
+    },
+    {
+      "id": 69,
+      "question_sk": "Počet štvorciferných čísel so všetkými rôznymi ciframi",
+      "question_en": "The number of four-digit numbers with all different digits",
+      "options_sk": [
+        "$9\\cdot9\\cdot8\\cdot7$",
+        "$10\\cdot9\\cdot8\\cdot6$",
+        "$10\\cdot9\\cdot8\\cdot7$",
+        "9000",
+        "Žiadna z ostatných"
+      ],
+      "options_en": [
+        "$9\\cdot9\\cdot8\\cdot7$",
+        "$10\\cdot9\\cdot8\\cdot6$",
+        "$10\\cdot9\\cdot8\\cdot7$",
+        "9000",
+        "None of the others"
+      ],
+      "areas_sk": ["kombinatorika"],
+      "areas_en": ["combinatorics"],
+      "correct_answer": 0,
+      "type": "single"
+    },
+    {
+      "id": 70,
+      "question_sk": "Počet priesečníkov $f(x)=x^2-2x+2$ a $y=1$",
+      "question_en": "The number of intersection points of $f(x)=x^2-2x+2$ and $y=1$",
+      "options_sk": ["Žiadna z ostatných", "3", "1", "2", "0"],
+      "options_en": ["None of the others", "3", "1", "2", "0"],
+      "areas_sk": ["algebra", "funkcie"],
+      "areas_en": ["algebra", "functions"],
+      "correct_answer": 3,
+      "type": "single"
+    },
+    {
+      "id": 71,
+      "question_sk": "Riešenia rovnice $\\sin x = \\cos x$",
+      "question_en": "Solutions to the equation $\\sin x = \\cos x$",
+      "options_sk": [
+        "$\\{k\\pi\\} \\cup \\{\\frac{\\pi}{4}+k\\pi\\}$",
+        "$\\{\\frac{\\pi}{4}+k\\pi\\}$",
+        "$\\{\\frac{\\pi}{4}+2k\\pi\\}$",
+        "$\\{k\\pi\\}$",
+        "prázdna množina"
+      ],
+      "options_en": [
+        "$\\{k\\pi\\} \\cup \\{\\frac{\\pi}{4}+k\\pi\\}$",
+        "$\\{\\frac{\\pi}{4}+k\\pi\\}$",
+        "$\\{\\frac{\\pi}{4}+2k\\pi\\}$",
+        "$\\{k\\pi\\}$",
+        "empty set"
+      ],
+      "areas_sk": ["trigonometria"],
+      "areas_en": ["trigonometry"],
+      "correct_answer": 1,
+      "type": "single"
+    },
+    {
+      "id": 72,
+      "question_sk": "Spoločný menovateľ zlomkov $\\frac{x+1}{x-1}$, $\\frac{x-1}{x+1}$, $\\frac{-x}{1+x^2}$",
+      "question_en": "Common denominator of the fractions $\\frac{x+1}{x-1}$, $\\frac{x-1}{x+1}$, $\\frac{-x}{1+x^2}$",
+      "options_sk": [
+        "Žiadna z ostatných",
+        "$1-x^2$",
+        "$1+x^2$",
+        "$x^4-1$",
+        "$x$"
+      ],
+      "options_en": [
+        "None of the others",
+        "$1-x^2$",
+        "$1+x^2$",
+        "$x^4-1$",
+        "$x$"
+      ],
+      "areas_sk": ["algebra", "zlomky"],
+      "areas_en": ["algebra", "fractions"],
+      "correct_answer": 3,
+      "type": "single"
+    },
+    {
+      "id": 73,
+      "question_sk": "Ak $\\log3=a$ a $\\log2=b$, potom $\\log12=$",
+      "question_en": "If $\\log3=a$ and $\\log2=b$, then $\\log12=$",
+      "options_sk": ["$2ab$", "$2a+b$", "$4a$", "$a+b^2$", "$a+2b$"],
+      "options_en": ["$2ab$", "$2a+b$", "$4a$", "$a+b^2$", "$a+2b$"],
+      "areas_sk": ["algebra", "logaritmy"],
+      "areas_en": ["algebra", "logarithms"],
+      "correct_answer": 1,
+      "type": "single"
+    },
+    {
+      "id": 74,
+      "question_sk": "Množina M prirodzených čísel deliteľných práve dvomi z $\\{3,11,33\\}$",
+      "question_en": "Set M of natural numbers divisible by exactly two of $\\{3,11,33\\}$",
+      "options_sk": [
+        "$M=\\emptyset$",
+        "$M=\\{11,22,33\\}$",
+        "$M=\\{75,121,758961\\}$",
+        "$M=\\{174,2772,358479\\}$",
+        "$M=\\{675,12549,257866\\}$"
+      ],
+      "options_en": [
+        "$M=\\emptyset$",
+        "$M=\\{11,22,33\\}$",
+        "$M=\\{75,121,758961\\}$",
+        "$M=\\{174,2772,358479\\}$",
+        "$M=\\{675,12549,257866\\}$"
+      ],
+      "areas_sk": ["teória čísel"],
+      "areas_en": ["number theory"],
+      "correct_answer": 2,
+      "type": "single"
+    },
+    {
+      "id": 75,
+      "question_sk": "Riešenie nerovnice $\\left|\\frac{x-3}{2x-5}\\right| \\geq 1$",
+      "question_en": "Solution to the inequality $\\left|\\frac{x-3}{2x-5}\\right| \\geq 1$",
+      "options_sk": [
+        "$(2,\\frac{8}{3})$",
+        "Žiadna z ostatných",
+        "$(2,\\frac{5}{2}) \\cup (\\frac{5}{2},\\frac{8}{3})$",
+        "$(2,\\frac{5}{2}) \\cup (\\frac{5}{2},\\frac{8}{3})$",
+        "$(2,\\frac{5}{2})$"
+      ],
+      "options_en": [
+        "$(2,\\frac{8}{3})$",
+        "None of the others",
+        "$(2,\\frac{5}{2}) \\cup (\\frac{5}{2},\\frac{8}{3})$",
+        "$(2,\\frac{5}{2}) \\cup (\\frac{5}{2},\\frac{8}{3})$",
+        "$(2,\\frac{5}{2})$"
+      ],
+      "areas_sk": ["algebra", "nerovnice"],
+      "areas_en": ["algebra", "inequalities"],
+      "correct_answer": 2,
+      "type": "single"
+    },
+    {
+      "id": 76,
+      "question_sk": "Negácia výroku: 'Ak má $\\triangle ABC$ zhodné uhly pri $A,B$, tak je rovnostranný'",
+      "question_en": "Negation of the statement: 'If $\\triangle ABC$ has equal angles at $A,B$, then it is equilateral'",
+      "options_sk": [
+        "Ak má $\\triangle ABC$ zhodné uhly pri $A,B$, tak je rovnoramenný",
+        "Ak je $\\triangle ABC$ rovnostranný, tak má zhodné uhly pri $A,B$",
+        "$\\triangle ABC$ má zhodné uhly pri $A,B$ a nie je rovnostranný",
+        "$\\triangle ABC$ je rovnostranný a nemá zhodné uhly pri $A,B$",
+        "Ak má $\\triangle ABC$ zhodné uhly pri $A,B,C$, tak je rovnostranný"
+      ],
+      "options_en": [
+        "If $\\triangle ABC$ has equal angles at $A,B$, then it is isosceles",
+        "If $\\triangle ABC$ is equilateral, then it has equal angles at $A,B$",
+        "$\\triangle ABC$ has equal angles at $A,B$ and is not equilateral",
+        "$\\triangle ABC$ is equilateral and does not have equal angles at $A,B$",
+        "If $\\triangle ABC$ has equal angles at $A,B,C$, then it is equilateral"
+      ],
+      "areas_sk": ["logika"],
+      "areas_en": ["logic"],
+      "correct_answer": 2,
+      "type": "single"
+    },
+    {
+      "id": 77,
+      "question_sk": "Nulové body funkcie $f(x)=3x-1$",
+      "question_en": "Zeros of the function $f(x)=3x-1$",
+      "options_sk": [
+        "Žiadna z ostatných",
+        "Nemá nulové body",
+        "$1$ a $3$",
+        "$\\frac{1}{3}$",
+        "$1$"
+      ],
+      "options_en": [
+        "None of the others",
+        "Has no zeros",
+        "$1$ and $3$",
+        "$\\frac{1}{3}$",
+        "$1$"
+      ],
+      "areas_sk": ["algebra", "lineárne funkcie"],
+      "areas_en": ["algebra", "linear functions"],
+      "correct_answer": 3,
+      "type": "single"
+    },
+    {
+      "id": 78,
+      "question_sk": "Kvadratická rovnica $2x^2+x-5=0$ má",
+      "question_en": "The quadratic equation $2x^2+x-5=0$ has",
+      "options_sk": [
+        "práve jedno riešenie",
+        "dve záporné riešenia",
+        "riešenia so súčinom $-5$",
+        "riešenia so súčtom $-\\frac{1}{2}$",
+        "dve kladné riešenia"
+      ],
+      "options_en": [
+        "exactly one solution",
+        "two negative solutions",
+        "solutions with product $-5$",
+        "solutions with sum $-\\frac{1}{2}$",
+        "two positive solutions"
+      ],
+      "areas_sk": ["algebra", "kvadratické rovnice"],
+      "areas_en": ["algebra", "quadratic equations"],
+      "correct_answer": 2,
+      "type": "single"
+    },
+    {
+      "id": 79,
+      "question_sk": "Rovnica $\\sqrt{-x^2-2x-9} = \\sqrt{4x}$ (v $\\mathbb{R}$)",
+      "question_en": "The equation $\\sqrt{-x^2-2x-9} = \\sqrt{4x}$ (in $\\mathbb{R}$)",
+      "options_sk": [
+        "má celočíselný koreň",
+        "má korene so súčtom $\\frac{5}{2}$",
+        "má iracionálne korene",
+        "má korene so súčinom $-\\frac{3}{2}$",
+        "nemá riešenie"
+      ],
+      "options_en": [
+        "has an integer root",
+        "has roots with sum $\\frac{5}{2}$",
+        "has irrational roots",
+        "has roots with product $-\\frac{3}{2}$",
+        "has no solution"
+      ],
+      "areas_sk": ["algebra", "iracionálne rovnice"],
+      "areas_en": ["algebra", "irrational equations"],
+      "correct_answer": 4,
+      "type": "single"
+    },
+    {
+      "id": 80,
+      "question_sk": "Riešenie nerovnice $\\frac{2x^2-3x+5}{x+1} \\geq 2$",
+      "question_en": "Solution to the inequality $\\frac{2x^2-3x+5}{x+1} \\geq 2$",
+      "options_sk": [
+        "Žiadna z ostatných",
+        "$(-\\infty,1) \\cup (\\frac{3}{2},\\infty)$",
+        "$(\\frac{3}{2},\\infty)$",
+        "$(-1,1) \\cup (\\frac{3}{2},\\infty)$",
+        "$(1,\\infty)$"
+      ],
+      "options_en": [
+        "None of the others",
+        "$(-\\infty,1) \\cup (\\frac{3}{2},\\infty)$",
+        "$(\\frac{3}{2},\\infty)$",
+        "$(-1,1) \\cup (\\frac{3}{2},\\infty)$",
+        "$(1,\\infty)$"
+      ],
+      "areas_sk": ["algebra", "nerovnice"],
+      "areas_en": ["algebra", "inequalities"],
+      "correct_answer": 2,
+      "type": "single"
+    },
+    {
+      "id": 81,
+      "question_sk": "Množina dvojciferných čísel deliteľných 4 a 6, ale nie 8",
+      "question_en": "Set of two-digit numbers divisible by 4 and 6, but not by 8",
+      "options_sk": [
+        "$\\{36,72\\}$",
+        "$\\{12,36,60,84\\}$",
+        "$\\emptyset$",
+        "$\\{12,24,...,96\\}$",
+        "$\\{24,48,72,96\\}$"
+      ],
+      "options_en": [
+        "$\\{36,72\\}$",
+        "$\\{12,36,60,84\\}$",
+        "$\\emptyset$",
+        "$\\{12,24,...,96\\}$",
+        "$\\{24,48,72,96\\}$"
+      ],
+      "areas_sk": ["teória čísel"],
+      "areas_en": ["number theory"],
+      "correct_answer": 1,
+      "type": "single"
+    },
+    {
+      "id": 82,
+      "question_sk": "Počet štvorciferných čísel s dvomi párnymi a dvomi nepárnymi ciframi (0=párna)",
+      "question_en": "Number of four-digit numbers with two even and two odd digits (0=even)",
+      "options_sk": [
+        "Žiadna z ostatných",
+        "$5^3\\cdot4$",
+        "$5^3\\cdot3^3$",
+        "$10\\cdot10\\cdot5\\cdot5$",
+        "$5^4$"
+      ],
+      "options_en": [
+        "None of the others",
+        "$5^3\\cdot4$",
+        "$5^3\\cdot3^3$",
+        "$10\\cdot10\\cdot5\\cdot5$",
+        "$5^4$"
+      ],
+      "areas_sk": ["kombinatorika"],
+      "areas_en": ["combinatorics"],
+      "correct_answer": 3,
+      "type": "single"
+    },
+    {
+      "id": 83,
+      "question_sk": "Ak $\\log3=a$ a $\\log4=b$, potom $\\log6=$",
+      "question_en": "If $\\log3=a$ and $\\log4=b$, then $\\log6=$",
+      "options_sk": ["$a+\\sqrt{b}$", "$3b$", "$a+\\frac{b}{2}$", "$2a$"],
+      "options_en": ["$a+\\sqrt{b}$", "$3b$", "$a+\\frac{b}{2}$", "$2a$"],
+      "areas_sk": ["algebra", "logaritmy"],
+      "areas_en": ["algebra", "logarithms"],
+      "correct_answer": 2,
+      "type": "single"
+    },
+    {
+      "id": 84,
+      "question_sk": "100. člen AP s $a_{n+1}=a_n-\\frac{1}{3}$, $a_1=65$",
+      "question_en": "100th term of AP with $a_{n+1}=a_n-\\frac{1}{3}$, $a_1=65$",
+      "options_sk": [
+        "$-\\frac{100}{3}$",
+        "32",
+        "$\\frac{95}{3}$",
+        "$\\frac{194}{3}$",
+        "0"
+      ],
+      "options_en": [
+        "$-\\frac{100}{3}$",
+        "32",
+        "$\\frac{95}{3}$",
+        "$\\frac{194}{3}$",
+        "0"
+      ],
+      "areas_sk": ["algebra", "postupnosti"],
+      "areas_en": ["algebra", "sequences"],
+      "correct_answer": 1,
+      "type": "single"
+    },
+    {
+      "id": 85,
+      "question_sk": "Dĺžka strany rovnostranného $\\triangle ABC$, kde $A$ je vzdialený 1 od priamky $BC$",
+      "question_en": "Length of the side of equilateral $\\triangle ABC$ where $A$ is 1 unit away from line $BC$",
+      "options_sk": [
+        "$\\frac{1}{\\sqrt{3}}$",
+        "1",
+        "$\\frac{1}{\\sqrt{5}}$",
+        "Žiadna z ostatných"
+      ],
+      "options_en": [
+        "$\\frac{1}{\\sqrt{3}}$",
+        "1",
+        "$\\frac{1}{\\sqrt{5}}$",
+        "None of the others"
+      ],
+      "areas_sk": ["geometria"],
+      "areas_en": ["geometry"],
+      "correct_answer": 0,
+      "type": "single"
+    },
+    {
+      "id": 86,
+      "question_sk": "Rovnica $4^x - 2^x = 2$",
+      "question_en": "The equation $4^x - 2^x = 2$",
+      "options_sk": [
+        "nemá riešenie",
+        "má práve jedno riešenie",
+        "má riešenia so súčtom $1$",
+        "má riešenia $x=0$ a $x=1$",
+        "má riešenia so súčtom $-1$"
+      ],
+      "options_en": [
+        "has no solution",
+        "has exactly one solution",
+        "has solutions with sum $1$",
+        "has solutions $x=0$ and $x=1$",
+        "has solutions with sum $-1$"
+      ],
+      "areas_sk": ["algebra", "exponenciálne rovnice"],
+      "areas_en": ["algebra", "exponential equations"],
+      "correct_answer": 1,
+      "type": "single"
+    },
+    {
+      "id": 87,
+      "question_sk": "Zjednodušenie výrazu $\\frac{1-\\sqrt{a}}{1+\\sqrt{a}} : \\frac{1-a}{1+a}$ pre $a\\geq0, a\\neq1$",
+      "question_en": "Simplification of the expression $\\frac{1-\\sqrt{a}}{1+\\sqrt{a}} : \\frac{1-a}{1+a}$ for $a\\geq0, a\\neq1$",
+      "options_sk": [
+        "$1 - \\frac{2\\sqrt{a}}{1+2\\sqrt{a}+a}$",
+        "$\\frac{1+\\sqrt{a}}{1-\\sqrt{a}}$",
+        "Žiadna z ostatných",
+        "$1 - \\frac{\\sqrt{a}}{1+a}$",
+        "$1$"
+      ],
+      "options_en": [
+        "$1 - \\frac{2\\sqrt{a}}{1+2\\sqrt{a}+a}$",
+        "$\\frac{1+\\sqrt{a}}{1-\\sqrt{a}}$",
+        "None of the others",
+        "$1 - \\frac{\\sqrt{a}}{1+a}$",
+        "$1$"
+      ],
+      "areas_sk": ["algebra", "zjednodušenie výrazov"],
+      "areas_en": ["algebra", "expression simplification"],
+      "correct_answer": 1,
+      "type": "single"
+    },
+    {
+      "id": 88,
+      "question_sk": "Spoločný menovateľ zlomkov $\\frac{x}{x+1}$, $\\frac{x}{x-2}$, $\\frac{x}{2+x-x^2}$",
+      "question_en": "Common denominator of the fractions $\\frac{x}{x+1}$, $\\frac{x}{x-2}$, $\\frac{x}{2+x-x^2}$",
+      "options_sk": [
+        "$x^2-x-2$",
+        "Žiadna z ostatných",
+        "$x-2$",
+        "$x$",
+        "$x+1$"
+      ],
+      "options_en": [
+        "$x^2-x-2$",
+        "None of the others",
+        "$x-2$",
+        "$x$",
+        "$x+1$"
+      ],
+      "areas_sk": ["algebra", "zlomky"],
+      "areas_en": ["algebra", "fractions"],
+      "correct_answer": 0,
+      "type": "single"
+    },
+    {
+      "id": 89,
+      "question_sk": "Počet priesečníkov $f(x)=x^2-3x+4$ a $y=x$",
+      "question_en": "Number of intersection points of $f(x)=x^2-3x+4$ and $y=x$",
+      "options_sk": ["0", "3", "Žiadna z ostatných", "1", "2"],
+      "options_en": ["0", "3", "None of the others", "1", "2"],
+      "areas_sk": ["algebra", "funkcie"],
+      "areas_en": ["algebra", "functions"],
+      "correct_answer": 0,
+      "type": "single"
+    },
+    {
+      "id": 90,
+      "question_sk": "Riešenia rovnice $\\tan x = \\cot x$",
+      "question_en": "Solutions to the equation $\\tan x = \\cot x$",
+      "options_sk": [
+        "$\\{k\\pi\\}$",
+        "prázdna množina",
+        "$\\{\\frac{\\pi}{4} + \\frac{k\\pi}{2}\\}$",
+        "$\\{\\frac{\\pi}{2}+k\\pi\\} \\cup \\{\\frac{\\pi}{4}+k\\pi\\}$",
+        "$\\{\\frac{\\pi}{4}+k\\pi\\}$"
+      ],
+      "options_en": [
+        "$\\{k\\pi\\}$",
+        "empty set",
+        "$\\{\\frac{\\pi}{4} + \\frac{k\\pi}{2}\\}$",
+        "$\\{\\frac{\\pi}{2}+k\\pi\\} \\cup \\{\\frac{\\pi}{4}+k\\pi\\}$",
+        "$\\{\\frac{\\pi}{4}+k\\pi\\}$"
+      ],
+      "areas_sk": ["trigonometria"],
+      "areas_en": ["trigonometry"],
+      "correct_answer": 2,
+      "type": "single"
+    },
+    {
+      "id": 91,
+      "question_sk": "Ktoré z nasledujúcich tvrdení o kvadratickej rovnici $x^2 - 4x + 4 = 0$ sú pravdivé?",
+      "question_en": "Which of the following statements about the quadratic equation $x^2 - 4x + 4 = 0$ are true?",
+      "options_sk": [
+        "Rovnica má presne jedno riešenie.",
+        "Rovnica má dva rovnaké reálne korene.",
+        "Súčin koreňov rovnice je 4.",
+        "Súčet koreňov rovnice je -4.",
+        "Rovnica nemá reálne riešenia."
+      ],
+      "options_en": [
+        "The equation has exactly one solution.",
+        "The equation has two identical real roots.",
+        "The product of the roots of the equation is 4.",
+        "The sum of the roots of the equation is -4.",
+        "The equation has no real solutions."
+      ],
+      "areas_sk": ["algebra", "kvadratické rovnice"],
+      "areas_en": ["algebra", "quadratic equations"],
+      "correct_answer": [0, 1, 2],
+      "type": "multiple"
+    },
+    {
+      "id": 92,
+      "question_sk": "Ktoré z nasledujúcich vlastností platia pre funkciu $f(x) = \\sin x + \\cos x$ na intervale $[0, 2\\pi]$?",
+      "question_en": "Which of the following properties hold for the function $f(x) = \\sin x + \\cos x$ on the interval $[0, 2\\pi]$?",
+      "options_sk": [
+        "Funkcia má maximum v bode $x = \\frac{\\pi}{4}$.",
+        "Funkcia má minimum v bode $x = \\frac{5\\pi}{4}$.",
+        "Funkcia má nulový bod v $x = \\frac{3\\pi}{4}$.",
+        "Funkcia je periodická s periódou $\\pi$.",
+        "Funkcia dosahuje hodnotu $\\sqrt{2}$."
+      ],
+      "options_en": [
+        "The function has a maximum at $x = \\frac{\\pi}{4}$.",
+        "The function has a minimum at $x = \\frac{5\\pi}{4}$.",
+        "The function has a zero at $x = \\frac{3\\pi}{4}$.",
+        "The function is periodic with period $\\pi$.",
+        "The function attains the value $\\sqrt{2}$."
+      ],
+      "areas_sk": ["trigonometria", "funkcie"],
+      "areas_en": ["trigonometry", "functions"],
+      "correct_answer": [0, 1, 2, 4],
+      "type": "multiple"
+    },
+    {
+      "id": 93,
+      "question_sk": "Ktoré z nasledujúcich čísel patria do množiny prirodzených čísel deliteľných 6, ale nie 9?",
+      "question_en": "Which of the following numbers belong to the set of natural numbers divisible by 6 but not by 9?",
+      "options_sk": ["12", "18", "24", "36", "42"],
+      "options_en": ["12", "18", "24", "36", "42"],
+      "areas_sk": ["teória čísel"],
+      "areas_en": ["number theory"],
+      "correct_answer": [0, 2, 4],
+      "type": "multiple"
+    },
+    {
+      "id": 94,
+      "question_sk": "Ktoré z nasledujúcich tvrdení o geometrickej postupnosti s prvým členom $a_1 = 2$ a kvocientom $q = 3$ sú pravdivé?",
+      "question_en": "Which of the following statements about the geometric sequence with first term $a_1 = 2$ and ratio $q = 3$ are true?",
+      "options_sk": [
+        "Druhý člen postupnosti je 6.",
+        "Tretí člen postupnosti je 18.",
+        "Súčet prvých troch členov je 26.",
+        "Štvrtý člen postupnosti je 54.",
+        "Postupnosť je klesajúca."
+      ],
+      "options_en": [
+        "The second term of the sequence is 6.",
+        "The third term of the sequence is 18.",
+        "The sum of the first three terms is 26.",
+        "The fourth term of the sequence is 54.",
+        "The sequence is decreasing."
+      ],
+      "areas_sk": ["algebra", "postupnosti"],
+      "areas_en": ["algebra", "sequences"],
+      "correct_answer": [0, 1, 2, 3],
+      "type": "multiple"
+    },
+    {
+      "id": 95,
+      "question_sk": "Ktoré z nasledujúcich tvrdení o rovnici $|x - 1| = 3$ sú pravdivé?",
+      "question_en": "Which of the following statements about the equation $|x - 1| = 3$ are true?",
+      "options_sk": [
+        "Rovnica má dva reálne korene.",
+        "Riešenia rovnice sú $x = -2$ a $x = 4$.",
+        "Súčet koreňov rovnice je 2.",
+        "Rovnica nemá žiadne riešenie.",
+        "Súčin koreňov rovnice je -8."
+      ],
+      "options_en": [
+        "The equation has two real roots.",
+        "The solutions of the equation are $x = -2$ and $x = 4$.",
+        "The sum of the roots of the equation is 2.",
+        "The equation has no solutions.",
+        "The product of the roots of the equation is -8."
+      ],
+      "areas_sk": ["algebra", "absolútna hodnota"],
+      "areas_en": ["algebra", "absolute value"],
+      "correct_answer": [0, 1, 2, 4],
+      "type": "multiple"
+    }
+  ]
+}
